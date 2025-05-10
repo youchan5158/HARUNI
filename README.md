@@ -102,7 +102,7 @@
 - **Request Body**:
   ```json
   {
-    "conversation": [대화 내역 배열]
+    "conversation": [대화 내역 배열],
   }
   ```
 - **Response**:
@@ -150,11 +150,7 @@ HARUNI/
 │   ├── memoryAgent.py        # 메모리 관리 에이전트
 │   ├── llm.py                # LLM 모듈
 │   ├── create_diary.py       # 일기 생성 모듈
+│   ├── .env                  # 환경 변수 파일
+│   ├── README.md             # 이 파일
 │   └── test_api.py           # API 테스트 도구
-├── .env                      # 환경 변수 파일
-└── README.md                 # 이 파일
 ```
-
-## License
-
-이 프로젝트는 [MIT 라이선스](LICENSE)로 배포됩니다. 
